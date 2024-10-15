@@ -63,6 +63,20 @@
 		CCBB66452CBE8D6C00E9F745 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66442CBE8D6C00E9F745 /* SettingsViewController.swift */; };
 		CCBB66472CBE8D7300E9F745 /* SettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66462CBE8D7300E9F745 /* SettingsAssembly.swift */; };
 		CCBB66492CBE8D7900E9F745 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66482CBE8D7900E9F745 /* SettingsRouter.swift */; };
+		CCBB664C2CBEA84700E9F745 /* WinStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB664B2CBEA84700E9F745 /* WinStat.swift */; };
+		CCBB664E2CBEA85100E9F745 /* MatchStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB664D2CBEA85100E9F745 /* MatchStat.swift */; };
+		CCBB66502CBEB5B100E9F745 /* MostPlayed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB664F2CBEB5B100E9F745 /* MostPlayed.swift */; };
+		CCBB66532CBECEC000E9F745 /* GameTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66522CBECEC000E9F745 /* GameTab.swift */; };
+		CCBB66562CBED93600E9F745 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66552CBED93600E9F745 /* CollectionViewHeader.swift */; };
+		CCBB66582CBEDA4100E9F745 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66572CBEDA4100E9F745 /* GameCollectionViewCell.swift */; };
+		CCBB665A2CBEF3CA00E9F745 /* EmptyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66592CBEF3CA00E9F745 /* EmptyCollectionViewCell.swift */; };
+		CCBB665D2CBEF94200E9F745 /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB665C2CBEF94200E9F745 /* AddGameViewController.swift */; };
+		CCBB665F2CBEF94900E9F745 /* AddGameAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB665E2CBEF94900E9F745 /* AddGameAssembly.swift */; };
+		CCBB66622CBEFBEB00E9F745 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66612CBEFBEB00E9F745 /* AddPhotoView.swift */; };
+		CCBB66652CBEFDE100E9F745 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66642CBEFDE100E9F745 /* TextView.swift */; };
+		CCBB66672CBEFE5E00E9F745 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66662CBEFE5E00E9F745 /* CustomTextField.swift */; };
+		CCBB666A2CBF0CCC00E9F745 /* EditGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66692CBF0CCC00E9F745 /* EditGameViewController.swift */; };
+		CCBB666C2CBF0CDA00E9F745 /* EditGameAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB666B2CBF0CDA00E9F745 /* EditGameAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +134,20 @@
 		CCBB66442CBE8D6C00E9F745 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CCBB66462CBE8D7300E9F745 /* SettingsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembly.swift; sourceTree = "<group>"; };
 		CCBB66482CBE8D7900E9F745 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		CCBB664B2CBEA84700E9F745 /* WinStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinStat.swift; sourceTree = "<group>"; };
+		CCBB664D2CBEA85100E9F745 /* MatchStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStat.swift; sourceTree = "<group>"; };
+		CCBB664F2CBEB5B100E9F745 /* MostPlayed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPlayed.swift; sourceTree = "<group>"; };
+		CCBB66522CBECEC000E9F745 /* GameTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTab.swift; sourceTree = "<group>"; };
+		CCBB66552CBED93600E9F745 /* CollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHeader.swift; sourceTree = "<group>"; };
+		CCBB66572CBEDA4100E9F745 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCBB66592CBEF3CA00E9F745 /* EmptyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCBB665C2CBEF94200E9F745 /* AddGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
+		CCBB665E2CBEF94900E9F745 /* AddGameAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameAssembly.swift; sourceTree = "<group>"; };
+		CCBB66612CBEFBEB00E9F745 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		CCBB66642CBEFDE100E9F745 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		CCBB66662CBEFE5E00E9F745 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CCBB66692CBF0CCC00E9F745 /* EditGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGameViewController.swift; sourceTree = "<group>"; };
+		CCBB666B2CBF0CDA00E9F745 /* EditGameAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGameAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +266,10 @@
 		CCBB65CB2CBE6A9000E9F745 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CCBB66632CBEFDCF00E9F745 /* TextFields */,
+				CCBB66602CBEFBDB00E9F745 /* AddPhoto */,
+				CCBB66512CBECEAC00E9F745 /* Game */,
+				CCBB664A2CBEA83E00E9F745 /* Statistic */,
 				CCBB661B2CBE7D8200E9F745 /* PageControl */,
 			);
 			path = Components;
@@ -320,6 +352,9 @@
 		CCBB66272CBE8CDB00E9F745 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				CCBB66682CBF0CBD00E9F745 /* EditGame */,
+				CCBB665B2CBEF92B00E9F745 /* AddGame */,
+				CCBB66542CBED92C00E9F745 /* Cell */,
 				CCBB662C2CBE8D0E00E9F745 /* GameViewController.swift */,
 				CCBB66302CBE8D1A00E9F745 /* GameAssembly.swift */,
 				CCBB662E2CBE8D1300E9F745 /* GameRouter.swift */,
@@ -365,6 +400,69 @@
 				CCBB66482CBE8D7900E9F745 /* SettingsRouter.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		CCBB664A2CBEA83E00E9F745 /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB664B2CBEA84700E9F745 /* WinStat.swift */,
+				CCBB664D2CBEA85100E9F745 /* MatchStat.swift */,
+				CCBB664F2CBEB5B100E9F745 /* MostPlayed.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		CCBB66512CBECEAC00E9F745 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66522CBECEC000E9F745 /* GameTab.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		CCBB66542CBED92C00E9F745 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66552CBED93600E9F745 /* CollectionViewHeader.swift */,
+				CCBB66572CBEDA4100E9F745 /* GameCollectionViewCell.swift */,
+				CCBB66592CBEF3CA00E9F745 /* EmptyCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCBB665B2CBEF92B00E9F745 /* AddGame */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB665C2CBEF94200E9F745 /* AddGameViewController.swift */,
+				CCBB665E2CBEF94900E9F745 /* AddGameAssembly.swift */,
+			);
+			path = AddGame;
+			sourceTree = "<group>";
+		};
+		CCBB66602CBEFBDB00E9F745 /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66612CBEFBEB00E9F745 /* AddPhotoView.swift */,
+			);
+			path = AddPhoto;
+			sourceTree = "<group>";
+		};
+		CCBB66632CBEFDCF00E9F745 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66642CBEFDE100E9F745 /* TextView.swift */,
+				CCBB66662CBEFE5E00E9F745 /* CustomTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		CCBB66682CBF0CBD00E9F745 /* EditGame */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66692CBF0CCC00E9F745 /* EditGameViewController.swift */,
+				CCBB666B2CBF0CDA00E9F745 /* EditGameAssembly.swift */,
+			);
+			path = EditGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBB665D2CBEF94200E9F745 /* AddGameViewController.swift in Sources */,
 				CCBB66372CBE8D3100E9F745 /* StrategyAssembly.swift in Sources */,
 				CCBB662D2CBE8D0E00E9F745 /* GameViewController.swift in Sources */,
 				CCBB66212CBE7DA000E9F745 /* Drawer.swift in Sources */,
@@ -465,35 +564,48 @@
 				CCBB65F72CBE6CDB00E9F745 /* UntilOnboardingAssembly.swift in Sources */,
 				CCBB66432CBE8D5F00E9F745 /* StatisticAssembly.swift in Sources */,
 				CCBB663F2CBE8D4D00E9F745 /* StatisticViewController.swift in Sources */,
+				CCBB66582CBEDA4100E9F745 /* GameCollectionViewCell.swift in Sources */,
+				CCBB664C2CBEA84700E9F745 /* WinStat.swift in Sources */,
 				CCBB66082CBE6DB100E9F745 /* CollectionView.swift in Sources */,
 				CCBB66312CBE8D1A00E9F745 /* GameAssembly.swift in Sources */,
+				CCBB66562CBED93600E9F745 /* CollectionViewHeader.swift in Sources */,
 				CCBB66392CBE8D3800E9F745 /* MatchViewController.swift in Sources */,
 				CCBB66262CBE8CCF00E9F745 /* TabBarViewController.swift in Sources */,
 				CCBB663B2CBE8D3E00E9F745 /* MatchAssembly.swift in Sources */,
+				CCBB666C2CBF0CDA00E9F745 /* EditGameAssembly.swift in Sources */,
+				CCBB665A2CBEF3CA00E9F745 /* EmptyCollectionViewCell.swift in Sources */,
 				CCBB661F2CBE7D9900E9F745 /* ColorUtils.swift in Sources */,
 				CCBB65F92CBE6CE200E9F745 /* UntilOnboardingRouter.swift in Sources */,
 				CCBB65F02CBE6C2200E9F745 /* ServiceAssembly.swift in Sources */,
 				CCBB65F52CBE6CD200E9F745 /* UntilOnboardingViewController.swift in Sources */,
 				CCBB66232CBE7DC800E9F745 /* OnboardingCell.swift in Sources */,
+				CCBB66622CBEFBEB00E9F745 /* AddPhotoView.swift in Sources */,
 				CCBB66492CBE8D7900E9F745 /* SettingsRouter.swift in Sources */,
 				CCBB65B72CBE694200E9F745 /* ViewController.swift in Sources */,
+				CCBB666A2CBF0CCC00E9F745 /* EditGameViewController.swift in Sources */,
 				CCBB66152CBE7D2500E9F745 /* OnboardingViewController.swift in Sources */,
 				CCBB663D2CBE8D4300E9F745 /* MatchRouter.swift in Sources */,
+				CCBB664E2CBEA85100E9F745 /* MatchStat.swift in Sources */,
 				CCBB66122CBE6E1900E9F745 /* UILabel.swift in Sources */,
 				CCBB660C2CBE6DDC00E9F745 /* UIDevice.swift in Sources */,
 				CCBB66452CBE8D6C00E9F745 /* SettingsViewController.swift in Sources */,
+				CCBB665F2CBEF94900E9F745 /* AddGameAssembly.swift in Sources */,
 				CCBB66192CBE7D3300E9F745 /* OnboardingAssembly.swift in Sources */,
 				CCBB66172CBE7D2C00E9F745 /* OnboardingRouter.swift in Sources */,
 				CCBB65F22CBE6C2C00E9F745 /* ViewControllerFactory.swift in Sources */,
 				CCBB65D32CBE6ABB00E9F745 /* BaseRouter.swift in Sources */,
 				CCBB66062CBE6DAB00E9F745 /* TableView.swift in Sources */,
 				CCBB65CD2CBE6A9B00E9F745 /* Setupable.swift in Sources */,
+				CCBB66532CBECEC000E9F745 /* GameTab.swift in Sources */,
+				CCBB66652CBEFDE100E9F745 /* TextView.swift in Sources */,
+				CCBB66672CBEFE5E00E9F745 /* CustomTextField.swift in Sources */,
 				CCBB65D12CBE6AB500E9F745 /* ReusableView.swift in Sources */,
 				CCBB66102CBE6DFE00E9F745 /* UIColor.swift in Sources */,
 				CCBB660E2CBE6DED00E9F745 /* StackView.swift in Sources */,
 				CCBB66332CBE8D2300E9F745 /* StrategyViewController.swift in Sources */,
 				CCBB660A2CBE6DCF00E9F745 /* String.swift in Sources */,
 				CCBB65B32CBE694200E9F745 /* AppDelegate.swift in Sources */,
+				CCBB66502CBEB5B100E9F745 /* MostPlayed.swift in Sources */,
 				CCBB662F2CBE8D1300E9F745 /* GameRouter.swift in Sources */,
 				CCBB661D2CBE7D9200E9F745 /* AdvancedPageControlView.swift in Sources */,
 				CCBB65B52CBE694200E9F745 /* SceneDelegate.swift in Sources */,

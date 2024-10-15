@@ -13,6 +13,13 @@ import StoreKit
 class StatisticViewController: BaseViewController, UICollectionViewDelegate {
 
     var viewModel: ViewModel?
+    private let profit = WinStat(winOrLose: .profit)
+    private let loses = WinStat(winOrLose: .lose)
+    private var winStat: UIStackView!
+    private let matches = MatchStat(matchOrRate: .match)
+    private let rate = MatchStat(matchOrRate: .rate)
+    private var secondStats: UIStackView!
+    private let mostPlayed = MostPlayed(isPlayed: false)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +35,17 @@ class StatisticViewController: BaseViewController, UICollectionViewDelegate {
             .foregroundColor: UIColor.white
         ]
 
+        self.winStat = UIStackView(arrangedSubviews: [profit, loses],
+                                   axis: .horizontal,
+                                   spacing: 12)
+
+        self.secondStats = UIStackView(arrangedSubviews: [matches, rate],
+                                       axis: .horizontal,
+                                       spacing: 12)
+
+        self.view.addSubview(winStat)
+        self.view.addSubview(secondStats)
+        self.view.addSubview(mostPlayed)
         setupConstraints()
         makeButtonActions()
     }
@@ -38,7 +56,26 @@ class StatisticViewController: BaseViewController, UICollectionViewDelegate {
     }
 
     func setupConstraints() {
-        
+        winStat.snp.makeConstraints { view in
+            view.top.equalToSuperview().offset(151)
+            view.leading.equalToSuperview().offset(16)
+            view.trailing.equalToSuperview().inset(16)
+            view.height.equalTo(87)
+        }
+
+        secondStats.snp.makeConstraints { view in
+            view.top.equalTo(winStat.snp.bottom).offset(12)
+            view.leading.equalToSuperview().offset(16)
+            view.trailing.equalToSuperview().inset(16)
+            view.height.equalTo(56)
+        }
+
+        mostPlayed.snp.makeConstraints { view in
+            view.top.equalTo(secondStats.snp.bottom).offset(24)
+            view.leading.equalToSuperview().offset(16)
+            view.trailing.equalToSuperview().inset(16)
+            view.height.equalTo(362)
+        }
     }
 }
 

@@ -43,6 +43,22 @@ final class ViewControllerFactory {
         return viewController
     }
 
+    static func makeAddGameViewController(navigationModel: SubjectNavigationModel) -> AddGameViewController {
+        let assembler = Assembler(commonAssemblies + [AddGameAssembly()])
+        let viewController = AddGameViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddGameViewModel.self,
+                                                              argument: navigationModel)
+        return viewController
+    }
+
+    static func makeEditGameViewController(navigationModel: GameNavigationModel) -> EditGameViewController {
+        let assembler = Assembler(commonAssemblies + [EditGameAssembly()])
+        let viewController = EditGameViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditGameViewModel.self,
+                                                              argument: navigationModel)
+        return viewController
+    }
+
     //MARK: Strategy
     static func makeStrategyViewController() -> StrategyViewController {
         let assembler = Assembler(commonAssemblies + [StrategyAssembly()])
