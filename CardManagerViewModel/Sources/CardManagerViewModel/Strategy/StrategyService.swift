@@ -86,7 +86,7 @@ public class StrategyService: IStrategyService {
                 throw NSError(domain: "ImageConversionError", code: 2, userInfo: nil)
             }
 
-            var fetchedStrategy = StrategyModel(id: strategy[idColumn],
+            let fetchedStrategy = StrategyModel(id: strategy[idColumn],
                                                 gameId: strategy[gameIdColumn],
                                                 image: image,
                                                 strategyName: strategy[strategyNameColumn],

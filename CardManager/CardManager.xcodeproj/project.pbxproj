@@ -58,7 +58,6 @@
 		CCBB663B2CBE8D3E00E9F745 /* MatchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB663A2CBE8D3E00E9F745 /* MatchAssembly.swift */; };
 		CCBB663D2CBE8D4300E9F745 /* MatchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB663C2CBE8D4300E9F745 /* MatchRouter.swift */; };
 		CCBB663F2CBE8D4D00E9F745 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB663E2CBE8D4D00E9F745 /* StatisticViewController.swift */; };
-		CCBB66412CBE8D5600E9F745 /* StatisticRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66402CBE8D5600E9F745 /* StatisticRouter.swift */; };
 		CCBB66432CBE8D5F00E9F745 /* StatisticAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66422CBE8D5F00E9F745 /* StatisticAssembly.swift */; };
 		CCBB66452CBE8D6C00E9F745 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66442CBE8D6C00E9F745 /* SettingsViewController.swift */; };
 		CCBB66472CBE8D7300E9F745 /* SettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66462CBE8D7300E9F745 /* SettingsAssembly.swift */; };
@@ -144,7 +143,6 @@
 		CCBB663A2CBE8D3E00E9F745 /* MatchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchAssembly.swift; sourceTree = "<group>"; };
 		CCBB663C2CBE8D4300E9F745 /* MatchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRouter.swift; sourceTree = "<group>"; };
 		CCBB663E2CBE8D4D00E9F745 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
-		CCBB66402CBE8D5600E9F745 /* StatisticRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticRouter.swift; sourceTree = "<group>"; };
 		CCBB66422CBE8D5F00E9F745 /* StatisticAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticAssembly.swift; sourceTree = "<group>"; };
 		CCBB66442CBE8D6C00E9F745 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CCBB66462CBE8D7300E9F745 /* SettingsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembly.swift; sourceTree = "<group>"; };
@@ -424,7 +422,6 @@
 			isa = PBXGroup;
 			children = (
 				CCBB663E2CBE8D4D00E9F745 /* StatisticViewController.swift */,
-				CCBB66402CBE8D5600E9F745 /* StatisticRouter.swift */,
 				CCBB66422CBE8D5F00E9F745 /* StatisticAssembly.swift */,
 			);
 			path = Statistic;
@@ -742,7 +739,6 @@
 				CCBB668C2CBFCB9F00E9F745 /* AddMatchViewController.swift in Sources */,
 				CCBB65B52CBE694200E9F745 /* SceneDelegate.swift in Sources */,
 				CCBB66472CBE8D7300E9F745 /* SettingsAssembly.swift in Sources */,
-				CCBB66412CBE8D5600E9F745 /* StatisticRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,7 +816,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -877,7 +873,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
