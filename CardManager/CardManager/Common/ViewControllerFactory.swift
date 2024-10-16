@@ -67,11 +67,43 @@ final class ViewControllerFactory {
         return viewController
     }
 
+    static func makeAddStrategyViewController(navigationModel: SubjectNavigationModel) -> AddStrategyViewController {
+        let assembler = Assembler(commonAssemblies + [AddStrategyAssembly()])
+        let viewController = AddStrategyViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddStrategyViewModel.self,
+                                                              argument: navigationModel)
+        return viewController
+    }
+
+    static func makeEditStrategyViewController(navigationModel: StrategyNavigationModel) -> EditStrategyViewController {
+        let assembler = Assembler(commonAssemblies + [EditStrategyAssembly()])
+        let viewController = EditStrategyViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditStrategyViewModel.self,
+                                                              argument: navigationModel)
+        return viewController
+    }
+
     //MARK: Match
     static func makeMatchViewController() -> MatchViewController {
         let assembler = Assembler(commonAssemblies + [MatchAssembly()])
         let viewController = MatchViewController()
         viewController.viewModel = assembler.resolver.resolve(IMatchViewModel.self)
+        return viewController
+    }
+
+    static func makeAddMatchViewController(navigationModel: SubjectNavigationModel) -> AddMatchViewController {
+        let assembler = Assembler(commonAssemblies + [AddMatchAssembly()])
+        let viewController = AddMatchViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddMatchViewModel.self,
+                                                              argument: navigationModel)
+        return viewController
+    }
+
+    static func makeEditMatchViewController(navigationModel: MatchNavigationModel) -> EditMatchViewController {
+        let assembler = Assembler(commonAssemblies + [EditMatchAssembly()])
+        let viewController = EditMatchViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditMatchViewModel.self,
+                                                              argument: navigationModel)
         return viewController
     }
 

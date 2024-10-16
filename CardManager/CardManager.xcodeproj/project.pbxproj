@@ -77,6 +77,21 @@
 		CCBB66672CBEFE5E00E9F745 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66662CBEFE5E00E9F745 /* CustomTextField.swift */; };
 		CCBB666A2CBF0CCC00E9F745 /* EditGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66692CBF0CCC00E9F745 /* EditGameViewController.swift */; };
 		CCBB666C2CBF0CDA00E9F745 /* EditGameAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB666B2CBF0CDA00E9F745 /* EditGameAssembly.swift */; };
+		CCBB666F2CBF7D2B00E9F745 /* EmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB666E2CBF7D2B00E9F745 /* EmptyTableViewCell.swift */; };
+		CCBB66722CBF7E4800E9F745 /* StrategyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66712CBF7E4800E9F745 /* StrategyTableViewCell.swift */; };
+		CCBB66752CBF88D400E9F745 /* AddStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66742CBF88D400E9F745 /* AddStrategyViewController.swift */; };
+		CCBB66772CBF88DC00E9F745 /* AddStrategyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66762CBF88DC00E9F745 /* AddStrategyAssembly.swift */; };
+		CCBB667A2CBF8C3100E9F745 /* PopupField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66792CBF8C3100E9F745 /* PopupField.swift */; };
+		CCBB667C2CBF8C5200E9F745 /* TextFieldWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB667B2CBF8C5200E9F745 /* TextFieldWImage.swift */; };
+		CCBB667F2CBF8D2F00E9F745 /* PopupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB667E2CBF8D2F00E9F745 /* PopupTableViewCell.swift */; };
+		CCBB66822CBFAE2500E9F745 /* EditStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66812CBFAE2500E9F745 /* EditStrategyViewController.swift */; };
+		CCBB66842CBFAE2F00E9F745 /* EditStrategyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66832CBFAE2F00E9F745 /* EditStrategyAssembly.swift */; };
+		CCBB66872CBFB76200E9F745 /* MatchGameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66862CBFB76200E9F745 /* MatchGameCollectionViewCell.swift */; };
+		CCBB66892CBFC64100E9F745 /* PlayedMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66882CBFC64100E9F745 /* PlayedMatchTableViewCell.swift */; };
+		CCBB668C2CBFCB9F00E9F745 /* AddMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB668B2CBFCB9F00E9F745 /* AddMatchViewController.swift */; };
+		CCBB668E2CBFCBA800E9F745 /* AddMatchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB668D2CBFCBA800E9F745 /* AddMatchAssembly.swift */; };
+		CCBB66912CBFE5D400E9F745 /* EditMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66902CBFE5D400E9F745 /* EditMatchViewController.swift */; };
+		CCBB66932CBFE5DC00E9F745 /* EditMatchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66922CBFE5DC00E9F745 /* EditMatchAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +163,21 @@
 		CCBB66662CBEFE5E00E9F745 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CCBB66692CBF0CCC00E9F745 /* EditGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGameViewController.swift; sourceTree = "<group>"; };
 		CCBB666B2CBF0CDA00E9F745 /* EditGameAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGameAssembly.swift; sourceTree = "<group>"; };
+		CCBB666E2CBF7D2B00E9F745 /* EmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCell.swift; sourceTree = "<group>"; };
+		CCBB66712CBF7E4800E9F745 /* StrategyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTableViewCell.swift; sourceTree = "<group>"; };
+		CCBB66742CBF88D400E9F745 /* AddStrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrategyViewController.swift; sourceTree = "<group>"; };
+		CCBB66762CBF88DC00E9F745 /* AddStrategyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrategyAssembly.swift; sourceTree = "<group>"; };
+		CCBB66792CBF8C3100E9F745 /* PopupField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupField.swift; sourceTree = "<group>"; };
+		CCBB667B2CBF8C5200E9F745 /* TextFieldWImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWImage.swift; sourceTree = "<group>"; };
+		CCBB667E2CBF8D2F00E9F745 /* PopupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupTableViewCell.swift; sourceTree = "<group>"; };
+		CCBB66812CBFAE2500E9F745 /* EditStrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStrategyViewController.swift; sourceTree = "<group>"; };
+		CCBB66832CBFAE2F00E9F745 /* EditStrategyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStrategyAssembly.swift; sourceTree = "<group>"; };
+		CCBB66862CBFB76200E9F745 /* MatchGameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGameCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCBB66882CBFC64100E9F745 /* PlayedMatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayedMatchTableViewCell.swift; sourceTree = "<group>"; };
+		CCBB668B2CBFCB9F00E9F745 /* AddMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchViewController.swift; sourceTree = "<group>"; };
+		CCBB668D2CBFCBA800E9F745 /* AddMatchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchAssembly.swift; sourceTree = "<group>"; };
+		CCBB66902CBFE5D400E9F745 /* EditMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMatchViewController.swift; sourceTree = "<group>"; };
+		CCBB66922CBFE5DC00E9F745 /* EditMatchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMatchAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +296,8 @@
 		CCBB65CB2CBE6A9000E9F745 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CCBB66782CBF8C2400E9F745 /* PopUpField */,
+				CCBB666D2CBF7D1D00E9F745 /* EmptyCell */,
 				CCBB66632CBEFDCF00E9F745 /* TextFields */,
 				CCBB66602CBEFBDB00E9F745 /* AddPhoto */,
 				CCBB66512CBECEAC00E9F745 /* Game */,
@@ -365,6 +397,9 @@
 		CCBB66282CBE8CE200E9F745 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				CCBB66802CBFAE1700E9F745 /* EditStrategy */,
+				CCBB66732CBF88C700E9F745 /* AddStrategy */,
+				CCBB66702CBF7E3D00E9F745 /* Cell */,
 				CCBB66322CBE8D2300E9F745 /* StrategyViewController.swift */,
 				CCBB66362CBE8D3100E9F745 /* StrategyAssembly.swift */,
 				CCBB66342CBE8D2B00E9F745 /* StrategyRouter.swift */,
@@ -375,6 +410,9 @@
 		CCBB66292CBE8CE900E9F745 /* Match */ = {
 			isa = PBXGroup;
 			children = (
+				CCBB668F2CBFE5C700E9F745 /* EditMatch */,
+				CCBB668A2CBFCB9400E9F745 /* AddMatch */,
+				CCBB66852CBFB75600E9F745 /* Cell */,
 				CCBB66382CBE8D3800E9F745 /* MatchViewController.swift */,
 				CCBB663A2CBE8D3E00E9F745 /* MatchAssembly.swift */,
 				CCBB663C2CBE8D4300E9F745 /* MatchRouter.swift */,
@@ -463,6 +501,85 @@
 				CCBB666B2CBF0CDA00E9F745 /* EditGameAssembly.swift */,
 			);
 			path = EditGame;
+			sourceTree = "<group>";
+		};
+		CCBB666D2CBF7D1D00E9F745 /* EmptyCell */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB666E2CBF7D2B00E9F745 /* EmptyTableViewCell.swift */,
+			);
+			path = EmptyCell;
+			sourceTree = "<group>";
+		};
+		CCBB66702CBF7E3D00E9F745 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66712CBF7E4800E9F745 /* StrategyTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCBB66732CBF88C700E9F745 /* AddStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66742CBF88D400E9F745 /* AddStrategyViewController.swift */,
+				CCBB66762CBF88DC00E9F745 /* AddStrategyAssembly.swift */,
+			);
+			path = AddStrategy;
+			sourceTree = "<group>";
+		};
+		CCBB66782CBF8C2400E9F745 /* PopUpField */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB667D2CBF8D2300E9F745 /* Cell */,
+				CCBB66792CBF8C3100E9F745 /* PopupField.swift */,
+				CCBB667B2CBF8C5200E9F745 /* TextFieldWImage.swift */,
+			);
+			path = PopUpField;
+			sourceTree = "<group>";
+		};
+		CCBB667D2CBF8D2300E9F745 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB667E2CBF8D2F00E9F745 /* PopupTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCBB66802CBFAE1700E9F745 /* EditStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66812CBFAE2500E9F745 /* EditStrategyViewController.swift */,
+				CCBB66832CBFAE2F00E9F745 /* EditStrategyAssembly.swift */,
+			);
+			path = EditStrategy;
+			sourceTree = "<group>";
+		};
+		CCBB66852CBFB75600E9F745 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66862CBFB76200E9F745 /* MatchGameCollectionViewCell.swift */,
+				CCBB66882CBFC64100E9F745 /* PlayedMatchTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCBB668A2CBFCB9400E9F745 /* AddMatch */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB668B2CBFCB9F00E9F745 /* AddMatchViewController.swift */,
+				CCBB668D2CBFCBA800E9F745 /* AddMatchAssembly.swift */,
+			);
+			path = AddMatch;
+			sourceTree = "<group>";
+		};
+		CCBB668F2CBFE5C700E9F745 /* EditMatch */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66902CBFE5D400E9F745 /* EditMatchViewController.swift */,
+				CCBB66922CBFE5DC00E9F745 /* EditMatchAssembly.swift */,
+			);
+			path = EditMatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -568,16 +685,20 @@
 				CCBB664C2CBEA84700E9F745 /* WinStat.swift in Sources */,
 				CCBB66082CBE6DB100E9F745 /* CollectionView.swift in Sources */,
 				CCBB66312CBE8D1A00E9F745 /* GameAssembly.swift in Sources */,
+				CCBB667C2CBF8C5200E9F745 /* TextFieldWImage.swift in Sources */,
 				CCBB66562CBED93600E9F745 /* CollectionViewHeader.swift in Sources */,
 				CCBB66392CBE8D3800E9F745 /* MatchViewController.swift in Sources */,
 				CCBB66262CBE8CCF00E9F745 /* TabBarViewController.swift in Sources */,
+				CCBB668E2CBFCBA800E9F745 /* AddMatchAssembly.swift in Sources */,
 				CCBB663B2CBE8D3E00E9F745 /* MatchAssembly.swift in Sources */,
 				CCBB666C2CBF0CDA00E9F745 /* EditGameAssembly.swift in Sources */,
 				CCBB665A2CBEF3CA00E9F745 /* EmptyCollectionViewCell.swift in Sources */,
 				CCBB661F2CBE7D9900E9F745 /* ColorUtils.swift in Sources */,
 				CCBB65F92CBE6CE200E9F745 /* UntilOnboardingRouter.swift in Sources */,
+				CCBB66752CBF88D400E9F745 /* AddStrategyViewController.swift in Sources */,
 				CCBB65F02CBE6C2200E9F745 /* ServiceAssembly.swift in Sources */,
 				CCBB65F52CBE6CD200E9F745 /* UntilOnboardingViewController.swift in Sources */,
+				CCBB66842CBFAE2F00E9F745 /* EditStrategyAssembly.swift in Sources */,
 				CCBB66232CBE7DC800E9F745 /* OnboardingCell.swift in Sources */,
 				CCBB66622CBEFBEB00E9F745 /* AddPhotoView.swift in Sources */,
 				CCBB66492CBE8D7900E9F745 /* SettingsRouter.swift in Sources */,
@@ -586,20 +707,29 @@
 				CCBB66152CBE7D2500E9F745 /* OnboardingViewController.swift in Sources */,
 				CCBB663D2CBE8D4300E9F745 /* MatchRouter.swift in Sources */,
 				CCBB664E2CBEA85100E9F745 /* MatchStat.swift in Sources */,
+				CCBB667F2CBF8D2F00E9F745 /* PopupTableViewCell.swift in Sources */,
 				CCBB66122CBE6E1900E9F745 /* UILabel.swift in Sources */,
+				CCBB66872CBFB76200E9F745 /* MatchGameCollectionViewCell.swift in Sources */,
 				CCBB660C2CBE6DDC00E9F745 /* UIDevice.swift in Sources */,
 				CCBB66452CBE8D6C00E9F745 /* SettingsViewController.swift in Sources */,
+				CCBB667A2CBF8C3100E9F745 /* PopupField.swift in Sources */,
+				CCBB66822CBFAE2500E9F745 /* EditStrategyViewController.swift in Sources */,
+				CCBB66722CBF7E4800E9F745 /* StrategyTableViewCell.swift in Sources */,
 				CCBB665F2CBEF94900E9F745 /* AddGameAssembly.swift in Sources */,
+				CCBB666F2CBF7D2B00E9F745 /* EmptyTableViewCell.swift in Sources */,
 				CCBB66192CBE7D3300E9F745 /* OnboardingAssembly.swift in Sources */,
 				CCBB66172CBE7D2C00E9F745 /* OnboardingRouter.swift in Sources */,
 				CCBB65F22CBE6C2C00E9F745 /* ViewControllerFactory.swift in Sources */,
 				CCBB65D32CBE6ABB00E9F745 /* BaseRouter.swift in Sources */,
 				CCBB66062CBE6DAB00E9F745 /* TableView.swift in Sources */,
+				CCBB66912CBFE5D400E9F745 /* EditMatchViewController.swift in Sources */,
 				CCBB65CD2CBE6A9B00E9F745 /* Setupable.swift in Sources */,
+				CCBB66772CBF88DC00E9F745 /* AddStrategyAssembly.swift in Sources */,
 				CCBB66532CBECEC000E9F745 /* GameTab.swift in Sources */,
 				CCBB66652CBEFDE100E9F745 /* TextView.swift in Sources */,
 				CCBB66672CBEFE5E00E9F745 /* CustomTextField.swift in Sources */,
 				CCBB65D12CBE6AB500E9F745 /* ReusableView.swift in Sources */,
+				CCBB66892CBFC64100E9F745 /* PlayedMatchTableViewCell.swift in Sources */,
 				CCBB66102CBE6DFE00E9F745 /* UIColor.swift in Sources */,
 				CCBB660E2CBE6DED00E9F745 /* StackView.swift in Sources */,
 				CCBB66332CBE8D2300E9F745 /* StrategyViewController.swift in Sources */,
@@ -608,6 +738,8 @@
 				CCBB66502CBEB5B100E9F745 /* MostPlayed.swift in Sources */,
 				CCBB662F2CBE8D1300E9F745 /* GameRouter.swift in Sources */,
 				CCBB661D2CBE7D9200E9F745 /* AdvancedPageControlView.swift in Sources */,
+				CCBB66932CBFE5DC00E9F745 /* EditMatchAssembly.swift in Sources */,
+				CCBB668C2CBFCB9F00E9F745 /* AddMatchViewController.swift in Sources */,
 				CCBB65B52CBE694200E9F745 /* SceneDelegate.swift in Sources */,
 				CCBB66472CBE8D7300E9F745 /* SettingsAssembly.swift in Sources */,
 				CCBB66412CBE8D5600E9F745 /* StatisticRouter.swift in Sources */,

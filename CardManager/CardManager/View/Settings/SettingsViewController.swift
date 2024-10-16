@@ -14,7 +14,6 @@ class SettingsViewController: BaseViewController, UICollectionViewDelegate {
 
     var viewModel: ViewModel?
     private var buttonStack: UIStackView!
-    private var resetButton = UIButton(type: .system)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,13 +45,7 @@ class SettingsViewController: BaseViewController, UICollectionViewDelegate {
                                                          title: "Rate Us",
                                                          action: #selector(rateTapped), position: 3))
 
-        self.resetButton.backgroundColor = UIColor(hex: "#39CC76")
-        self.resetButton.layer.cornerRadius = 12
-        self.resetButton.setTitle("Reset progress", for: .normal)
-        self.resetButton.setTitleColor(.white, for: .normal)
-
         self.view.addSubview(buttonStack)
-        self.view.addSubview(resetButton)
         setupConstraints()
         makeButtonActions()
     }
@@ -69,13 +62,6 @@ class SettingsViewController: BaseViewController, UICollectionViewDelegate {
             view.trailing.equalToSuperview().inset(16)
             view.height.equalTo(168)
         }
-
-        resetButton.snp.makeConstraints { view in
-            view.bottom.equalToSuperview().inset(100)
-            view.leading.equalToSuperview().offset(90)
-            view.trailing.equalToSuperview().inset(90)
-            view.height.equalTo(50)
-        }
     }
 }
 
@@ -87,7 +73,7 @@ extension SettingsViewController: IViewModelableController {
 //MARK: Button Actions
 extension SettingsViewController {
     private func makeButtonActions() {
-        self.resetButton.addTarget(self, action: #selector(resetTapped), for: .touchUpInside)
+        
     }
 
     private func createButton(imageName: String,

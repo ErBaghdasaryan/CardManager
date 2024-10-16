@@ -45,7 +45,7 @@ public enum StorageKeys: String {
     case skipOnboarding = "skipOnboarding"
     case skipRegistration = "skipRegistration"
     case isAlreadyOpened = "isAlreadyOpened"
-    case projectsCount = "projectsConut"
-    case groupsCount = "groupsCount"
-    case personalsCount = "personalsCount"
+    case matchesCount = "matchesCount"
+    case winCount = "winCount"
+    case loseCount = "loseCount"
 }

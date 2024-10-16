@@ -78,7 +78,7 @@ public class GameService: IGameService {
                 throw NSError(domain: "ImageConversionError", code: 2, userInfo: nil)
             }
 
-            var fetchedGame = GameModel(id: game[idColumn],
+            let fetchedGame = GameModel(id: game[idColumn],
                                         header: game[nameColumn],
                                         image: image,
                                         description: game[descriptionColumn],

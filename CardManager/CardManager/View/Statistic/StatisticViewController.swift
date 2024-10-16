@@ -25,6 +25,19 @@ class StatisticViewController: BaseViewController, UICollectionViewDelegate {
         super.viewDidLoad()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        guard let profit = self.viewModel?.profit else { return }
+        guard let bet = self.viewModel?.bet else { return }
+        guard let matches = self.viewModel?.matchesCount else { return }
+
+        self.profit.setup(count: profit)
+        self.loses.setup(count: bet)
+        self.matches.setup(matchesOrRate: matches)
+        self.rate.setup(matchesOrRate: "12.0")
+        self.mostPlayed.setup(isPlayed: true)
+    }
+
     override func setupUI() {
         super.setupUI()
         self.view.backgroundColor = UIColor(hex: "#090F1E")
