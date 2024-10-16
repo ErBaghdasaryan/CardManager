@@ -91,6 +91,7 @@
 		CCBB668E2CBFCBA800E9F745 /* AddMatchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB668D2CBFCBA800E9F745 /* AddMatchAssembly.swift */; };
 		CCBB66912CBFE5D400E9F745 /* EditMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66902CBFE5D400E9F745 /* EditMatchViewController.swift */; };
 		CCBB66932CBFE5DC00E9F745 /* EditMatchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66922CBFE5DC00E9F745 /* EditMatchAssembly.swift */; };
+		CCBB66CE2CC01BB900E9F745 /* UsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB66CD2CC01BB900E9F745 /* UsageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +177,7 @@
 		CCBB668D2CBFCBA800E9F745 /* AddMatchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchAssembly.swift; sourceTree = "<group>"; };
 		CCBB66902CBFE5D400E9F745 /* EditMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMatchViewController.swift; sourceTree = "<group>"; };
 		CCBB66922CBFE5DC00E9F745 /* EditMatchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMatchAssembly.swift; sourceTree = "<group>"; };
+		CCBB66CD2CC01BB900E9F745 /* UsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -430,6 +432,7 @@
 		CCBB662B2CBE8CF500E9F745 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				CCBB66CC2CC01BA400E9F745 /* Usage */,
 				CCBB66442CBE8D6C00E9F745 /* SettingsViewController.swift */,
 				CCBB66462CBE8D7300E9F745 /* SettingsAssembly.swift */,
 				CCBB66482CBE8D7900E9F745 /* SettingsRouter.swift */,
@@ -579,6 +582,14 @@
 			path = EditMatch;
 			sourceTree = "<group>";
 		};
+		CCBB66CC2CC01BA400E9F745 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB66CD2CC01BB900E9F745 /* UsageViewController.swift */,
+			);
+			path = Usage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -677,6 +688,7 @@
 				CCBB66352CBE8D2B00E9F745 /* StrategyRouter.swift in Sources */,
 				CCBB65F72CBE6CDB00E9F745 /* UntilOnboardingAssembly.swift in Sources */,
 				CCBB66432CBE8D5F00E9F745 /* StatisticAssembly.swift in Sources */,
+				CCBB66CE2CC01BB900E9F745 /* UsageViewController.swift in Sources */,
 				CCBB663F2CBE8D4D00E9F745 /* StatisticViewController.swift in Sources */,
 				CCBB66582CBEDA4100E9F745 /* GameCollectionViewCell.swift in Sources */,
 				CCBB664C2CBEA84700E9F745 /* WinStat.swift in Sources */,
@@ -893,7 +905,7 @@
 				DEVELOPMENT_TEAM = 5PTH9U4CB9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CardManager/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CardManager;
+				INFOPLIST_KEY_CFBundleDisplayName = "WinStats Cards";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -927,7 +939,7 @@
 				DEVELOPMENT_TEAM = 5PTH9U4CB9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CardManager/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = CardManager;
+				INFOPLIST_KEY_CFBundleDisplayName = "WinStats Cards";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

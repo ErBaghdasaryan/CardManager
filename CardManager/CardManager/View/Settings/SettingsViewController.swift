@@ -110,7 +110,7 @@ extension SettingsViewController {
     }
 
     @objc func shareTapped() {
-        let appStoreURL = URL(string: "https://apps.apple.com/app/cipherharmonic/id6698865168")!
+        let appStoreURL = URL(string: "https://apps.apple.com/us/app/winstats-cards/id6736991698")!
 
         let activityViewController = UIActivityViewController(activityItems: [appStoreURL], applicationActivities: nil)
         activityViewController.popoverPresentationController?.sourceView = self.view
@@ -143,7 +143,7 @@ extension SettingsViewController {
             )
             alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
             alertController.addAction(UIAlertAction(title: "Go to App Store", style: .default) { _ in
-                if let appStoreURL = URL(string: "https://apps.apple.com/app/cipherharmonic/id6698865168") {
+                if let appStoreURL = URL(string: "https://apps.apple.com/us/app/winstats-cards/id6736991698") {
                     UIApplication.shared.open(appStoreURL, options: [:], completionHandler: nil)
                 }
             })
@@ -152,8 +152,8 @@ extension SettingsViewController {
     }
 
     @objc func usageTapped() {
-//        guard let navigationController = self.navigationController else { return }
-//        SettingsRouter.showUsageViewController(in: navigationController)
+        guard let navigationController = self.navigationController else { return }
+        SettingsRouter.showUsageViewController(in: navigationController)
     }
 
     @objc func resetTapped() {
